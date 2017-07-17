@@ -1,0 +1,25 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "external","cocostudio"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/AboutLayer.js",
+        "src/BirdLayer.js",
+        "src/GameLayer.js",
+        "src/GameSceneManager.js",
+        "src/HelpLayer.js",
+        "src/MenueLayer.js",
+        "src/RankBirdLayer.js"
+    ]
+}
